@@ -10,6 +10,7 @@ class Ground{
     }
     Display() {
         rectMode(CENTER); 
-        rect(this.body.position.x,this.body.position.y,this.qwerty,this.awsd);
+        fill("brown");
+        rect(this.body.position.x,this.body.position.y,this.qwerty,this.awsd)
     }
 }
